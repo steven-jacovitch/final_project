@@ -170,3 +170,23 @@ p {
 iframe {
   border: none;
 }
+
+.skip a{
+  position: absolute;
+  top: -40px;
+}
+
+.skip a:focus {
+  position: absolute;
+  top: 20px;
+  color: white;
+}
+
+:focus{
+  border: 5px solid red;
+  border-radius: 10px;
+}
+
+.ytp-title-channel-logo {
+  display: none;
+}
