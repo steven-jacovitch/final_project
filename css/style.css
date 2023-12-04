@@ -96,7 +96,7 @@ body {
   padding: 20px;
   display: grid;
   grid-template-columns: 2fr;
-  align-content: stretch;
+  align-content: space-around;
   justify-content: center;
   align-items: center;
   justify-items: center;
