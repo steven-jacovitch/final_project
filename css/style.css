@@ -89,14 +89,14 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
+  -ms-flex: 35%; /* IE10 */
+  flex: 35%;
   background-color: #333;
   color:#fbcea0;
   padding: 20px;
   display: grid;
   grid-template-columns: 2fr;
-  align-content: space-around;
+  align-content: space-evenly;
   justify-content: center;
   align-items: center;
   justify-items: center;
@@ -104,8 +104,8 @@ body {
 
 /* Main column */
 .main {
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
+  -ms-flex: 65%; /* IE10 */
+  flex: 65%;
   background-color: #fbcea0;
   color: #333;
   padding: 20px;
