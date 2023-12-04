@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica;
-  }
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica;
+}
 
 
 body {
@@ -58,7 +58,8 @@ body {
 
   .navbar {
     overflow: auto;
-    background-color: black;;
+    background-color: black;
+    ;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -76,9 +77,11 @@ body {
 
 /* Column container */
 .row {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox;
+  /*IE10 */
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap;
+  /*IE10*/
   flex-wrap: wrap;
 }
 
@@ -89,10 +92,11 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  -ms-flex: 35%; /* IE10 */
+  -ms-flex: 35%;
+  /*IE10*/
   flex: 35%;
   background-color: #333;
-  color:#fbcea0;
+  color: #fbcea0;
   padding: 20px;
   display: grid;
   grid-template-columns: 2fr;
@@ -100,11 +104,13 @@ body {
   justify-content: center;
   align-items: center;
   justify-items: center;
+
 }
 
 /* Main column */
 .main {
-  -ms-flex: 65%; /* IE10 */
+  -ms-flex: 65%;
+  /*IE10*/
   flex: 65%;
   background-color: #fbcea0;
   color: #333;
@@ -180,7 +186,7 @@ iframe {
   border-radius: 15px;
 }
 
-.skip a{
+.skip a {
   position: absolute;
   top: -40px;
 }
@@ -191,7 +197,7 @@ iframe {
   color: white;
 }
 
-:focus{
+:focus {
   border: 5px solid red;
   border-radius: 10px;
 }
@@ -200,7 +206,7 @@ iframe {
   display: none;
 }
 
-.main > img {
+.main>img {
   border-radius: 100px;
 }
 
@@ -277,31 +283,5 @@ iframe {
 
 .charInfo {
   text-align: center;
-}
-
-.charInfo {
-  display: none;
-  font-size: 0.8em;
-  text-align: center;
-}
-
-.classInfo {
-  background-color: #333;
-  color: #fbcea0;
-  border: 1px solid #fbcea0;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
-
-}
-
-.classInfo:hover {
-  background-color: #fbcea0;
-  color: #333;
-
-}
-
-.classInfo:focus {
-  text-decoration: underline;
 }
 
