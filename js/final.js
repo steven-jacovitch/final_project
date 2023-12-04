@@ -19,3 +19,14 @@ document.querySelector("#classProfs").addEventListener("click", function() {
         document.getElementById("classProfs").innerHTML = "Show Base Proficiencies";
     }
 });
+
+document.querySelector("#classInfo").addEventListener("click", function() {
+    var x = document.getElementById("charInfo");
+    if (x.style.display === "none" || x.style.display === "") {
+        x.style.display = "block";
+        document.getElementById("classInfo").innerHTML = "Hide Character Information";
+    } else {
+        x.style.display = "none";
+        document.getElementById("classInfo").innerHTML = "Show Character Information";
+    }
+});
