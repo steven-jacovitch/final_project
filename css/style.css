@@ -38,8 +38,6 @@ body {
 }
 
 .navbar a {
-  /* float: left; */
-  /* display: flex; */
   color: #fbcea0;
   text-align: center;
   padding: 14px 20px;
@@ -50,7 +48,6 @@ body {
 /* Style the navigation bar links */
 @media screen and (min-width: 600px) {
   .navbar a {
-    /* float: left; */
     display: block;
     color: #fbcea0;
     text-align: center;
@@ -99,10 +96,10 @@ body {
   padding: 20px;
   display: grid;
   grid-template-columns: 2fr;
-  justify-items: center;
-  align-content: space-around;
+  align-content: space-evenly;
   justify-content: center;
   align-items: center;
+  justify-items: center;
 }
 
 /* Main column */
