@@ -96,7 +96,7 @@ body {
   padding: 20px;
   display: grid;
   grid-template-columns: 2fr;
-  align-content: space-evenly;
+  align-content: space-around;
   justify-content: center;
   align-items: center;
   justify-items: center;
@@ -277,4 +277,9 @@ iframe {
 
 .charInfo {
   text-align: center;
+}
+
+.spacer{
+  margin: 10px;
+  padding: 10px;
 }
