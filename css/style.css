@@ -1,13 +1,13 @@
 * {
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica;
   }
 
-  /* Style the body */
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
-/* Header/logo Title */
+
 .header {
   padding: 80px;
   text-align: center;
@@ -19,7 +19,6 @@ body {
   color: #fbcea0;
 }
 
-/* Increase the font size of the heading */
 .header h1 {
   font-size: 40px;
   color: #fbcea0;
@@ -98,6 +97,12 @@ body {
   background-color: #333;
   color:#fbcea0;
   padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr;
+  justify-items: center;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Main column */
@@ -107,6 +112,12 @@ body {
   background-color: #fbcea0;
   color: #333;
   padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr;
+  justify-items: center;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Footer */
@@ -169,6 +180,7 @@ p {
 
 iframe {
   border: none;
+  border-radius: 15px;
 }
 
 .skip a{
@@ -189,4 +201,83 @@ iframe {
 
 .ytp-title-channel-logo {
   display: none;
+}
+
+.main > img {
+  border-radius: 100px;
+}
+
+.classBttn {
+  background-color: #333;
+  color: #fbcea0;
+  border: 1px solid #fbcea0;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.charStats {
+  display: none;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.classBttn:hover {
+  background-color: #fbcea0;
+  color: #333;
+
+}
+
+.classBttn:focus {
+  text-decoration: underline;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+    /* Removes scroll animation */
+  }
+
+  .skip a {
+    -webkit-transition: none;
+    /* sets to default setting */
+    transition: none;
+    /* sets to default setting */
+  }
+
+  /*Turn off parallax*/
+  header {
+    background-attachment: initial;
+  }
+}
+
+.charProfs {
+  display: none;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.classProfs {
+  background-color: #333;
+  color: #fbcea0;
+  border: 1px solid #fbcea0;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.classProfs:hover {
+  background-color: #fbcea0;
+  color: #333;
+
+}
+
+.classProfs:focus {
+  text-decoration: underline;
+}
+
+.charInfo {
+  text-align: center;
 }
