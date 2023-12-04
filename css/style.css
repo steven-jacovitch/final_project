@@ -279,7 +279,29 @@ iframe {
   text-align: center;
 }
 
-.spacer{
-  margin: 10px;
-  padding: 10px;
+.charInfo {
+  display: none;
+  font-size: 0.8em;
+  text-align: center;
 }
+
+.classInfo {
+  background-color: #333;
+  color: #fbcea0;
+  border: 1px solid #fbcea0;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.classInfo:hover {
+  background-color: #fbcea0;
+  color: #333;
+
+}
+
+.classInfo:focus {
+  text-decoration: underline;
+}
+
